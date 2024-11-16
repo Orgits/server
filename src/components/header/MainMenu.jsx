@@ -12,13 +12,13 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                 <li className="dropdown">
                     <Link href="/about-us" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>About Us</Link>
                     <ul className="dropdown-menu">
-                        <li><Link href="/about-us">About Us</Link></li>
-                        <li><Link href="/team">Team</Link></li>
-                        <li><Link href="/faq">FAQ</Link></li>
+                        <li><Link href="./">About Us</Link></li>
+                        <li><Link href="./">Team</Link></li>
+                        <li><Link href="./">FAQ</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="./project">Portfolio</Link>
+                    <Link href="./">Portfolio</Link>
                     {}
                 </li>
                 <li className="dropdown">
